@@ -28,7 +28,7 @@ public class HomeController {
 		
 		ModelAndView modelAndView = new ModelAndView();
 		modelAndView.setViewName("home");
-		modelAndView.addObject("homeLinks", homeLinks);
+		modelAndView.addObject("homelinks", homeLinks);
 		
 		return modelAndView;
 	}

@@ -2,3 +2,10 @@
 body {
 	background-color: LightSlateGrey;
 }
+
+#buttonrow {
+	position:  fixed;
+	top: 60%;
+	left: 50%;
+	transform:	translate(-60%, -50%);
+}
