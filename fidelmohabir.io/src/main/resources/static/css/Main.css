@@ -1,6 +1,16 @@
 @charset "ISO-8859-1";
 body {
-	background-color: LightSlateGrey;
+	background-color: #4f5b66;
+}
+
+
+#logo-stationary {
+	position: fixed;
+	width: 500px;
+	height: 400px;
+	top: 35%;
+	left: 50%;
+	transform:	translate(-50%, -50%);
 }
 
 #buttonrow {
